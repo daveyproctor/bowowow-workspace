@@ -1,0 +1,104 @@
+  130  git rebase --abort
+  131  git merge stephanie
+  132  git branch -d "stephanie"
+  133  git branch
+  134  git status
+  135  git branch test
+  136  git checkout test
+  137  ls
+  138  git status
+  139  git add --all
+  140  git commit -m "wrote a line in conflict"
+  141  git status
+  142  git checkout master 
+  143  ls
+  144  git status
+  145  git add --all
+  146  git commit -m "this is what master thinks second line should read"
+  147  git status
+  148  git merge
+  149  git merge test
+  150  git merge --abort
+  151  git merge test 
+  152  git mergetool
+  153  clear
+  154  git status
+  155  git add --all
+  156  git commit -m "test was right about second line"
+  157  git merge test
+  158  git branch -d "test"
+  159  git branch
+  160  git log graph
+  161  git log
+  162  git log --graph
+  163  ls
+  164  rm conf*
+  165  clear
+  166  git log --graph
+  167  clear
+  168  git log
+  169  ls
+  170  git status
+  171  git add -all
+  172  git add --all
+  173  git commit -m "deleting files I may want back later"
+  174  git status
+  175  git log
+  176  git revert 3f059
+  177  git revert 94ef7
+  178  git status
+  179  git log
+  180  git revert 476f7 "deleting the files again"
+  181  git status
+  182  git add --al
+  183  git status
+  184  git commit -m "add this file to be deleted"
+  185  git log
+  186  git revert bc431 "that file ruined everything get me out!"
+  187  git revert bc431
+  188  sl
+  189  ls
+  190  git status
+  191  git log --graph
+  192  clear
+  193  ls
+  194  rm conf*
+  195  git status
+  196  git add --all
+  197  git commit -m "deleting conflict files again"
+  198  clear
+  199  ls
+  200  git status
+  201  git commit -a -m "I want to eventually correct this file, but good will be created meanwhile"
+  202  git add --all
+  203  git commit -m "I want to eventually correct this file, but good will be created meanwhile"
+  204  git status
+  205  git log
+  206  touch good.txt
+  207  git status
+  208  git add --all
+  209  git commit -m "here's some good work I did that I don't want to lose when correcting bad.txt"
+  210  git log
+  211  git status
+  212  git add --all
+  213  git commit -m "messed up this file"
+  214  git log
+  215  touch good2.txt
+  216  git status
+  217  git add --all
+  218  git commit -m "Keep this please!"
+  219  git log
+  
+  COOL; replaces current file with old version of file without affecting other files:
+  220  git checkout c1f50 good.txt
+  221  git status
+  222  git add --all
+  223  git status
+  
+  COOL; replaces current file with file version in index. Thus, git add can be used as a checkpoint.
+  224  git checkout -- good.txt
+  225  git status
+  226  git add --all
+  227  git commit -m "woohoo, good.txt is back to being good"
+  228  git log
+  229  history 100 > git_history.txt
