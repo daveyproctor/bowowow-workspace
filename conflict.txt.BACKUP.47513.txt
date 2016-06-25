@@ -1,0 +1,6 @@
+hello
+<<<<<<< HEAD
+master writes.
+=======
+test writes.
+>>>>>>> test
