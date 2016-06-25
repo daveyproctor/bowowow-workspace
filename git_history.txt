@@ -107,5 +107,3 @@
   git reset --hard b43b0
 
 you can undo a revert by reverting the revert. Mind blown!
-
-git reflog
