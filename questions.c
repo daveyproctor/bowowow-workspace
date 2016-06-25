@@ -5,7 +5,8 @@ int hash(const char* word)
 While simple (and thus fast to compute), this hash function isn't necessarily the best. Critique this 
 hash function, identifying and explaining a downside. 
 
-This is something that this master is typing.M
+
+This is something that master is typing.
 
 I, Stephanie, make this change M2.
 
