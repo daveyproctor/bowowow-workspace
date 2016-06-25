@@ -102,3 +102,6 @@
   227  git commit -m "woohoo, good.txt is back to being good"
   228  git log
   229  history 100 > git_history.txt
+  
+  Usually better to use revert.
+  git reset --hard b43b0
