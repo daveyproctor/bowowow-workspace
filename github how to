@@ -1,0 +1,8 @@
+How to use github:
+make a readme.md file in your workspace. like # bowowow-workspace.
+
+set your origin to the url you find on github when trying to set up the repo. ie:
+git remote add origin git@github.com:daveyproctor/bowowow-workspace.git
+
+copies whole workspace to git.
+git push -u origin master
