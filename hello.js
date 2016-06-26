@@ -4,3 +4,5 @@ console.log("hello, world");
 
 var arr = [[1,2],3];
 console.log(arr[0]);
+
+console.log("this is a crazy idea.");
