@@ -113,3 +113,6 @@ git reflog
 41:21
 
 44:30
+
+get a deleted branch back.
+git checkout -b "test" 30dbb
