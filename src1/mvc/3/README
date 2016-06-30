@@ -1,0 +1,14 @@
+mvc/3/README
+
+David J. Malan
+malan@harvard.edu
+
+Improves upon mvc/2 by generalizing header and footer as templates.
+
+classes.php - a list of classes
+day0.php - a day
+day1.php - a day
+footer.php - pages' footer
+header.php - pages' header
+helpers.php - helper functions
+index.php - home page for course
