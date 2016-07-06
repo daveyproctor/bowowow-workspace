@@ -36,6 +36,8 @@ void reposition(int ch);
 bool startup(void);
 void shutdown(void);
 
+//MADE A CHANGE
+
 int main(int argc, char* argv[])
 {
     // ensure proper usage
